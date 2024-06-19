@@ -34,7 +34,7 @@ jobs:
 
       - name: conditional if
         run: |
-          echo -n "the value of the var is: $test_azure_accessTier"
+          echo "the value of the var is: $test_azure_accessTier"
 
           echo " trying something else "
           if [ ! -z "$accessTier" ]; then
