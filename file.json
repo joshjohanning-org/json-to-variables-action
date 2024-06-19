@@ -1,0 +1,13 @@
+{
+	"azure": {
+		"resourceType": "storage",
+		"subscription": "my-sub1",
+		"resourceGroup": "my-rg1",
+		"storageAccountName": "mystorageaccount1",
+		"storageAccountType": "Standard",
+		"storageAccountKind": "StorageV2",
+		"accessTier": "",
+		"container_name":"mycontainer",
+		"isADLS2Enable": false
+  }
+}
