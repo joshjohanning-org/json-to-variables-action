@@ -42,4 +42,13 @@ jobs:
           else
             echo "not in the statement - we want to be here!"
           fi
-          
+
+          echo " trying something else "
+          if [ -z "$accessTier" ]; then
+            echo "accessTier is empty"
+          else
+            echo "accessTier is set to $accessTier"
+          fi
+
+          trimmed_var=$(echo "$test_azure_accessTier" | sed 's/^[ \t]*//;s/[ \t]*$//')
+          echo "Trimmed var: '$trimmed_var'"
