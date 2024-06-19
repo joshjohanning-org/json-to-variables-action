@@ -34,6 +34,8 @@ jobs:
 
       - name: conditional if
         run: |
+          echo -n "the value of the var is: $test_azure_accessTier"
+          
           if [ -n $test_azure_accessTier ] || [[ $test_azure_accessTier != '' ]];
           then
             echo "in the statement - we shouldn't be here"
