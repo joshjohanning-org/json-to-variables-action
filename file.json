@@ -6,7 +6,7 @@
 		"storageAccountName": "mystorageaccount1",
 		"storageAccountType": "Standard",
 		"storageAccountKind": "StorageV2",
-		"accessTier": "",
+		"accessTier": "cool",
 		"container_name":"mycontainer",
 		"isADLS2Enable": false
   }
