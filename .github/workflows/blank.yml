@@ -32,6 +32,9 @@ jobs:
       - name: print env var
         run: printenv | grep -i test_
 
+      - name: test env
+        run: echo "${{ env.test_resourceType }}
+
       - name: conditional if
         run: |
           echo "the value of the var is: $test_azure_accessTier"
