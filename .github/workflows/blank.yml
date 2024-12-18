@@ -33,7 +33,7 @@ jobs:
         run: printenv | grep -i test_
 
       - name: test env
-        run: echo "${{ env.test_resourceType }}"
+        run: echo "${{ env.test_azure_storageAccountType }}"
 
       - name: conditional if
         run: |
